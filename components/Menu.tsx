@@ -14,8 +14,8 @@ export default class Menu extends Component<{}> {
                      <li><Link href="/about.html"><a>About me</a></Link></li>
                      <li><Link href="/links.html"><a>Links</a></Link></li>
                      <li><Link href="/guestbook.html"><a>Guestbook</a></Link></li>
-                     <li><a href="https:cyborg-js.org" target="_blank" rel="noreferrer noopener">Cyborg.JS</a></li>
-                     <li><a href="https:yourpersonalagency.nl" rel="noreferrer noopener" target="_blank">YPA</a></li>
+                     <li><a href="https://cyborg-js.org" target="_blank" rel="noreferrer noopener">Cyborg.JS</a></li>
+                     <li><a href="https://yourpersonalagency.nl" rel="noreferrer noopener" target="_blank">YPA</a></li>
                  </ul>
                </div>
              </nav>
