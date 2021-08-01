@@ -1,0 +1,10 @@
+.image {
+    margin           : .6rem auto;
+    padding          : 1rem 1rem 0.7rem;
+    display          : table;
+    position         : relative;
+    border-width     : .2rem;
+    background-color : #F5EBDF;
+    border-color     : #4C4C4C #D2D2D2 #D2D2D2 #4C4C4C;
+    border-style     : solid;
+}
