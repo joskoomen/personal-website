@@ -1,0 +1,24 @@
+.header {display   : block;
+    padding        : 0;
+    margin         : 1rem auto 1.5rem;
+    max-width      : 70rem;
+    width          : 94%;
+    text-align     : center;
+}
+
+.header a {color    : #151717 !important;
+    border          : .2rem solid #7C5DEC;
+    background      : url(../../assets/images/banner.png) 0 0 no-repeat;
+    text-decoration : none;
+    display         : table;
+    margin          : 0 auto;
+    padding         : 0 0 1rem;
+    width           : 100%;
+    max-width       : 70rem;
+    height          : 10rem}
+
+.header h1 {color  : #151717;
+    display        : table-cell;
+    vertical-align : middle;
+    margin         : 0;
+    padding        : 0}
