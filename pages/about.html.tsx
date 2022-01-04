@@ -45,7 +45,7 @@ export default class About extends React.Component<{}> {
                     </div>
                     <p>I&lsquo;ve had the honour to work with and at top notch agencies in the Netherlands like&nbsp;
                         <em>Mediamonks</em>,&nbsp;<em>Dept</em>&nbsp;<em>Dot Control</em>&nbsp;and&nbsp;<em>LBi</em>.</p><br/>
-                    <p>Currently i'm working at <em>Onlinepets</em>, <strong>the European leading webshop for Animal needs</strong> as the Development Team Lead.</p>
+                    <p>Currently i am working at <em>Onlinepets</em>, <strong>the European leading webshop for Animal needs</strong> as the Development Team Lead.</p>
                 </main>
                 <Footer/>
             </div>
