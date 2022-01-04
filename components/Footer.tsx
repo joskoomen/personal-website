@@ -10,16 +10,17 @@ import emailImage from '../assets/images//banners/email-icon.gif';
 import nukeIEImage from '../assets/images//banners/nukeieani.gif';
 import miauwImage from '../assets/images//banners/miauw.gif';
 import pikachuImage from '../assets/images//banners/pikachu.gif';
+import styles from "../styles/components/Footer.module.css";
 
 export default class Footer extends Component<{}> {
 
 
     render(): ReactNode {
         return (
-            <footer>
-                <Link href="/"><a>Jos Koomen</a></Link>&lsquo;s site - Copyright &copy; 1980 - 2021<br/>
+            <footer className={styles.footer}>
+                <Link href="/"><a>Jos Koomen</a></Link>&lsquo;s site - Copyright &copy; 1980 - 2022<br/>
                 All images, trademarks, and copyrights are property of their respective owners.<br/><br/>
-                <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoskoo.men&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
+                <a className={styles.footerImage} href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoskoo.men&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
                    target="_blank" rel="noreferrer">
                         <Image
                             src={cssImage}
@@ -31,7 +32,7 @@ export default class Footer extends Component<{}> {
                             unoptimized={true}
                         />
                 </a>
-                 <a href="http://www.anybrowser.org/campaign/"
+                 <a className={styles.footerImage} href="http://www.anybrowser.org/campaign/"
                     target="_blank" rel="noreferrer">
                         <Image
                             src={bestViewImage}
@@ -50,9 +51,10 @@ export default class Footer extends Component<{}> {
                     loading="lazy"
                     width={88}
                     height={31}
+                    className={styles.footerImage}
                     unoptimized={true}
                 />
-                <a href="https://www.addtoany.com/share"
+                <a className={styles.footerImage} href="https://www.addtoany.com/share"
                    target="_blank" rel="noreferrer">
                         <Image
                             src={sendThisImage}
@@ -69,11 +71,12 @@ export default class Footer extends Component<{}> {
                     alt="Pokemon"
                     title="Pokemon"
                     loading="lazy"
+                    className={styles.footerImage}
                     width={88}
                     height={31}
                     unoptimized={true}
                 />
-                <a href="mailto:hello@joskoo.men"
+                <a className={styles.footerImage} href="mailto:hello@joskoo.men"
                    target="_blank" rel="noreferrer">
                         <Image
                             src={emailImage}
@@ -90,6 +93,7 @@ export default class Footer extends Component<{}> {
                     alt="Nuke Internet Explorer"
                     title="Nuke Internet Explorer"
                     loading="lazy"
+                    className={styles.footerImage}
                     width={88}
                     height={31}
                     unoptimized={true}
@@ -99,6 +103,7 @@ export default class Footer extends Component<{}> {
                     alt="I love animals"
                     title="Miauw"
                     loading="lazy"
+                    className={styles.footerImage}
                     width={88}
                     height={31}
                     unoptimized={true}

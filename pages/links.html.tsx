@@ -8,6 +8,7 @@ import Link from "../components/Link";
 import styles from '../styles/pages/Links.module.css';
 import linkedinGif from '../assets/images/linkedin-panda.gif';
 import githubGif from '../assets/images/github-dino.gif';
+import beccaGif from '../assets/images/pug.gif';
 
 export default class Links extends React.Component<{}> {
 
@@ -49,6 +50,15 @@ export default class Links extends React.Component<{}> {
                             width={200}
                             height={200}
                             text="My Github Profile"
+                        />
+                        <Link
+                            title="BubbleBecca Pugs"
+                            href="https://bubblebecca.co.uk"
+                            img={beccaGif}
+                            image_alt="BubbleBecca"
+                            width={200}
+                            height={200}
+                            text="Support Becca in her wonderfull work"
                         />
                     </article>
                 </main>
