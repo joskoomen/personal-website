@@ -36,6 +36,11 @@ export default class Home extends React.Component<{}> {
                     </div>
 
                     <Post
+                        title="Happy new year"
+                        date="04 January, 2022"
+                        content="<p>Happy new Year, All the best!</p>"
+                    />
+                    <Post
                         title="I'm back!!"
                         date="07 July, 2021"
                         content="<p>The fancy layout for this website needed an update. It's 2021 and it needed a <em>modern look</em>. <strong>So here it is!</strong></p> <p>Also my old site was hacked! I think it was Kim Yung Un. But it's save now!</p>"

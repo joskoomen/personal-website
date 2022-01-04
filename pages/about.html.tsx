@@ -44,10 +44,8 @@ export default class About extends React.Component<{}> {
                         />
                     </div>
                     <p>I&lsquo;ve had the honour to work with and at top notch agencies in the Netherlands like&nbsp;
-                        <em>Mediamonks</em>,&nbsp;<em>Dept</em>&nbsp;and&nbsp;<em>LBi</em>.</p><p>After freelancing for 10 years in which i worked for brands like&nbsp;
-                    <em>Nike</em>,&nbsp;<em>Heineken</em>,&nbsp;<em>Audi,</em>&nbsp;<em>ETQ </em>and <strong><em>many more</em></strong>,<em> </em>i&lsquo;ve joined YPA.</p><p>At&nbsp;
-                    <a href="https://yourpersonalagency.nl/" target="_blank"
-                       rel="noreferrer"><em>YPA</em></a>&nbsp;i&lsquo;m Lead developer, coach &amp; motivator.</p>
+                        <em>Mediamonks</em>,&nbsp;<em>Dept</em>&nbsp;<em>Dot Control</em>&nbsp;and&nbsp;<em>LBi</em>.</p><br/>
+                    <p>Currently i'm working at <em>Onlinepets</em>, <strong>the European leading webshop for Animal needs</strong> as the Development Team Lead.</p>
                 </main>
                 <Footer/>
             </div>
